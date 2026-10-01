@@ -3,7 +3,7 @@ import {
     SOCIAL_LINKS_DATA,
     FOOTER_LINKS_DATA,
     FOOTER_BOTTOM_TEXT,
-} from '@/_data/pacepard/footer';
+} from '@/_data/onaeko/footer';
 import { DashedLine } from '@/components/dashed-line';
 
 import { Logo } from '@/components/shared/containers/logo';
@@ -116,7 +116,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* Pacepard Text */}
+                    {/* Onaeko Text */}
                     <div className="mt-24 flex justify-center ">
                         <span className="text-[4.5rem] md:text-[12rem] lg:text-[15rem] lg:text-[17.6rem] font-bold select-none leading-none bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200 inset-x-0">
                             {BRAND_INFO.name}

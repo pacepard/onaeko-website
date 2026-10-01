@@ -4,7 +4,7 @@
 /* @plugin '@tailwindcss/typography'; */
 
 @source "../**/*.{ts,tsx}";
-@source "../../node_modules/@pacepard/ui/dist/**/*.{js}";
+@source "../../node_modules/@onaeko/ui/dist/**/*.{js}";
 
 :root {
   --background: oklch(1 0 0);
@@ -166,7 +166,7 @@
     }
   }
 
-  /* Marquee (used by @pacepard/ui Marquee) */
+  /* Marquee (used by @onaeko/ui Marquee) */
   --duration: 40s;
   --animate-marquee: marquee var(--duration) infinite linear;
   --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
@@ -188,10 +188,10 @@
     }
   }
 
-  /* Pacepard route loader (see PacepardIconLoader) */
-  --animate-pacepard-loader: pacepard-loader-breathe 1.2s ease-in-out infinite;
+  /* Onaeko route loader (see OnaekoIconLoader) */
+  --animate-onaeko-loader: onaeko-loader-breathe 1.2s ease-in-out infinite;
 
-  @keyframes pacepard-loader-breathe {
+  @keyframes onaeko-loader-breathe {
     0%,
     100% {
       transform: scale(1);
@@ -212,8 +212,8 @@
   animation: var(--animate-marquee-vertical);
 }
 
-@utility animate-pacepard-loader {
-  animation: var(--animate-pacepard-loader);
+@utility animate-onaeko-loader {
+  animation: var(--animate-onaeko-loader);
 }
 
 @utility container {

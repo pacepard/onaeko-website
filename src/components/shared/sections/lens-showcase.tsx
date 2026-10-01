@@ -51,7 +51,7 @@ export default function LensShowcase() {
                     {/* RIGHT CONTENT */}
                     <div className="space-y-8">
                         <h2 className="text-4xl font-medium lg:text-5xl max-w-xl leading-tight">
-                            Become a Pacepard Superhuman
+                            Become a Onaeko Superhuman
                         </h2>
 
                         <p className="text-muted-foreground">
@@ -93,7 +93,7 @@ export default function LensShowcase() {
                                     className="text-primary"
                                 />
                                 <span>
-                                    Contribute to open source (pacepard)
+                                    Contribute to open source (onaeko)
                                     softwares.
                                 </span>
                             </div>
@@ -124,7 +124,7 @@ export default function LensShowcase() {
                         <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">
                             <Button asChild>
                                 <a
-                                    href="https://github.com/pacepard"
+                                    href="https://github.com/onaeko"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -142,7 +142,7 @@ export default function LensShowcase() {
                                 asChild
                             >
                                 <a
-                                    href="https://calendly.com/pacepard"
+                                    href="https://calendly.com/onaeko"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="max-w-56 truncate text-start md:max-w-none"

@@ -20,7 +20,7 @@ import {
     TabsContent,
     TabsList,
     TabsTrigger,
-} from '@pacepard/ui/tabs';
+} from '@onaeko/ui/tabs';
 import { Card, CardContent } from '@/components/ui/card';
 import Link from 'next/link';
 
@@ -97,10 +97,10 @@ export default function ClFeatures() {
                 <div className="flex flex-row flex-wrap items-center justify-between gap-8 lg:gap-16">
                     <div className="min-w-0 flex-1 space-y-4 pb-10">
                         <h2 className="max-w-xl text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl">
-                            Let Pacepard Go handle the busywork.
+                            Let Onaeko Go handle the busywork.
                         </h2>
                         <p className="max-w-lg text-lg text-muted-foreground">
-                            Pick a use case to see how Pacepard does the work
+                            Pick a use case to see how Onaeko does the work
                             for you.
                         </p>
                     </div>

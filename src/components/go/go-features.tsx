@@ -29,7 +29,7 @@ export default function GoFeatures() {
                 <div className="relative flex items-center justify-center">
                     <DashedLine className="text-muted-foreground" />
                     <span className="bg-neutral-50 text-muted-foreground absolute px-3 font-mono text-sm font-medium tracking-wide max-md:hidden">
-                        PACEPARD GO. PACEPARD GO.
+                        ONAEKO GO. ONAEKO GO.
                     </span>
                 </div>
 
@@ -39,7 +39,7 @@ export default function GoFeatures() {
                         Built for world-class hackathons
                     </h2>
                     <p className="text-lg leading-relaxed text-muted-foreground">
-                        Pacepard is built on the habits that make the best
+                        Onaeko is built on the habits that make the best
                         hackathons successful: knowledgeable participants, fast
                         engagement, and launching high-quality initiatives
                         without the usual headaches.

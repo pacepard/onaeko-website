@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 
-import { ABOUT_SECTION_HEADLINE } from '@/_data/pacepard/about';
+import { ABOUT_SECTION_HEADLINE } from '@/_data/onaeko/about';
 import { TimelineContent } from '@/components/ui/timeline-animation';
 
 export default function AboutSection() {

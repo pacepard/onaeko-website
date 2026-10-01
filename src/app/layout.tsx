@@ -105,7 +105,7 @@ export default function RootLayout({
                 className={`${useFont.variable} antialiased overflow-x-hidden`}
             >
                 <InitialLoadGate>
-                    {/* <PacepardHeader /> */}
+                    {/* <OnaekoHeader /> */}
                     <Navbar />
 
                     {children}

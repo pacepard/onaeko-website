@@ -8,7 +8,7 @@ import { usePathname } from 'next/navigation';
 
 import { ChevronRight, X, Linkedin, ArrowRightToLineIcon } from 'lucide-react';
 
-import { NavigationItems } from '@/_data/pacepard/navigation';
+import { NavigationItems } from '@/_data/onaeko/navigation';
 import { Background } from '@/components/background';
 import { Button } from '@/components/ui/button';
 import {

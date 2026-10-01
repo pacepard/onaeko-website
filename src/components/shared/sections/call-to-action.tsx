@@ -22,7 +22,7 @@ export default function CallToAction() {
                     <div className="mt-8 flex gap-3">
                         <Button asChild className="pr-2">
                             <Link href="#">
-                                Try Pacepard for Free
+                                Try Onaeko for Free
                                 <ChevronRight
                                     strokeWidth={2.5}
                                     className="size-3.5! opacity-50"
@@ -31,7 +31,7 @@ export default function CallToAction() {
                         </Button>
                         <Button asChild variant="outline" className="pl-2.5">
                             <Link
-                                href="https://calendly.com/pacepard"
+                                href="https://calendly.com/onaeko"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 
 const DEFAULT_IMAGE = '/blocks/pp.png';
-const CALENDLY = 'https://calendly.com/pacepard';
+const CALENDLY = 'https://calendly.com/onaeko';
 
 interface Countdown {
     days: number;

@@ -1,6 +1,6 @@
 // //import { InstagramIcon} from "@/src/components/shared/social-icons";
 
-// import { InstagramIcon, LinkedInIcon, XIcon, YouTubeIcon  } from "@/components/pacepard/containers/social-icons";
+// import { InstagramIcon, LinkedInIcon, XIcon, YouTubeIcon  } from "@/components/onaeko/containers/social-icons";
 
 // export const footerData = {
 //   brand: {

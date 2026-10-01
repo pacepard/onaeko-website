@@ -18,7 +18,7 @@ export default function GoFAQ() {
         {
             id: 'item-2',
             question: 'Can I run online, in-person, or hybrid hackathons?',
-            answer: "Yes! Pacepard Go supports all hackathon formats. You can organize online, in-person, or hybrid hackathons all in one place. Our platform adapts to your event format and helps you manage participants regardless of how they're participating.",
+            answer: "Yes! Onaeko Go supports all hackathon formats. You can organize online, in-person, or hybrid hackathons all in one place. Our platform adapts to your event format and helps you manage participants regardless of how they're participating.",
         },
         {
             id: 'item-3',
@@ -33,19 +33,19 @@ export default function GoFAQ() {
         {
             id: 'item-5',
             question: 'How can I collect feedback from participants?',
-            answer: "Pacepard Go includes friendly feedback channels that integrate seamlessly into your hackathon. You'll receive continuous feedback and insights from participants through notifications, project updates, and direct communication channels. This helps you build consistent usage momentum and maintain a healthy feedback loop.",
+            answer: "Onaeko Go includes friendly feedback channels that integrate seamlessly into your hackathon. You'll receive continuous feedback and insights from participants through notifications, project updates, and direct communication channels. This helps you build consistent usage momentum and maintain a healthy feedback loop.",
         },
         {
             id: 'item-6',
             question:
-                'Is Pacepard Go suitable for small teams and large organizations?',
-            answer: "Absolutely! Pacepard Go is built for both small teams and large organizations. Whether you're running an internal hackathon for your startup or organizing a large-scale event with thousands of participants, our platform scales to meet your needs.",
+                'Is Onaeko Go suitable for small teams and large organizations?',
+            answer: "Absolutely! Onaeko Go is built for both small teams and large organizations. Whether you're running an internal hackathon for your startup or organizing a large-scale event with thousands of participants, our platform scales to meet your needs.",
         },
         {
             id: 'item-7',
             question:
-                'What makes Pacepard Go different from other hackathon platforms?',
-            answer: 'Pacepard Go is built on the habits that make the best hackathons successful: knowledgeable participants, fast engagement, and launching high-quality initiatives without the usual headaches. We focus on helping you get thousands to stick around your product and technology, building lasting engagement and loyalty.',
+                'What makes Onaeko Go different from other hackathon platforms?',
+            answer: 'Onaeko Go is built on the habits that make the best hackathons successful: knowledgeable participants, fast engagement, and launching high-quality initiatives without the usual headaches. We focus on helping you get thousands to stick around your product and technology, building lasting engagement and loyalty.',
         },
         {
             id: 'item-8',
@@ -56,7 +56,7 @@ export default function GoFAQ() {
             id: 'item-9',
             question:
                 'How do I ensure participants stay engaged after the hackathon?',
-            answer: 'Pacepard Go helps you build consistent usage momentum and a healthy feedback loop. By providing knowledge resources, tracking progress, and maintaining open communication channels, participants stay engaged with your product and technology long after the hackathon ends.',
+            answer: 'Onaeko Go helps you build consistent usage momentum and a healthy feedback loop. By providing knowledge resources, tracking progress, and maintaining open communication channels, participants stay engaged with your product and technology long after the hackathon ends.',
         },
         {
             id: 'item-10',
@@ -102,7 +102,7 @@ export default function GoFAQ() {
                     <p className="text-muted-foreground text-left">
                         Can't find what you're looking for? Contact our{' '}
                         <Link
-                            href="mailto:hello@pacepard.com"
+                            href="mailto:hello@onaeko.com"
                             className="text-primary font-medium hover:underline"
                         >
                             Support team

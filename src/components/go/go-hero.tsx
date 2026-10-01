@@ -41,7 +41,7 @@ export default function GoHero() {
                                 )}
                             >
                                 <Link
-                                    href="https://calendly.com/pacepard"
+                                    href="https://calendly.com/onaeko"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2"
@@ -64,7 +64,7 @@ export default function GoHero() {
                                 )}
                             >
                                 <Link
-                                    href="mailto:hello@pacepard.com"
+                                    href="mailto:hello@onaeko.com"
                                     className="inline-flex items-center gap-2"
                                 >
                                     Send us a mail

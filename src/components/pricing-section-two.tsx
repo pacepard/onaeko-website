@@ -2,7 +2,7 @@
 
 // import { Check } from 'lucide-react'
 
-// import { pricingHeader, plans } from '@/_data/pacepard/pricing'
+// import { pricingHeader, plans } from '@/_data/onaeko/pricing'
 // import { Button } from '@/components/ui/button'
 // import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 

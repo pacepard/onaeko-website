@@ -20,7 +20,7 @@ export default function Pricing() {
                     </h2>
                     <p className="text-muted-foreground mx-auto mt-4 max-w-xl text-balance text-lg">
                         {' '}
-                        Start using Pacepard for free. Upgrade to unlock
+                        Start using Onaeko for free. Upgrade to unlock
                         personalised perks,and additional features.
                     </p>
                 </div>
@@ -45,7 +45,7 @@ export default function Pricing() {
                                         className="w-full"
                                         variant="default"
                                     >
-                                        <Link href="/join-pacepard">
+                                        <Link href="/join-onaeko">
                                             Select Plan
                                         </Link>
                                     </Button>
@@ -145,7 +145,7 @@ export default function Pricing() {
                                         'Everything in Starter and...',
                                         '1 on 1  mentor pairing & reviews',
                                         'Priority support',
-                                        'Pacepard talent pool',
+                                        'Onaeko talent pool',
                                     ].map((item, index) => (
                                         <li
                                             key={index}
@@ -181,7 +181,7 @@ export default function Pricing() {
                                         "Everything in Starter and...",
                                         "1 on 1  mentor pairing & reviews",
                                         "Priority support",
-                                        "Pacepard talent pool",
+                                        "Onaeko talent pool",
                                     ].map((item, index) => (
                                         <li
                                             key={index}

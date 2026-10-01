@@ -4,7 +4,7 @@ import * as React from 'react';
 
 import { cn } from '@/lib/utils';
 
-import { PacepardIconLoader } from './pacepard-icon-loader';
+import { OnaekoIconLoader } from './onaeko-icon-loader';
 
 /**
  * Full-viewport splash until the document has finished loading resources
@@ -70,7 +70,7 @@ export function InitialLoadGate({ children }: { children: React.ReactNode }) {
                 )}
                 aria-hidden={!showSplash}
             >
-                <PacepardIconLoader size={64} label="Loading site" />
+                <OnaekoIconLoader size={64} label="Loading site" />
             </div>
             <div
                 className={showSplash ? 'min-h-screen bg-white' : undefined}

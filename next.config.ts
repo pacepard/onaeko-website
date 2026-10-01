@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
     // Vercel serves Next natively. Keep `output: 'standalone'` only when
     // deploying with Docker/Coolify later (see Dockerfile).
-    transpilePackages: ['@pacepard/ui'],
+    transpilePackages: ['@onaeko/ui'],
     images: { unoptimized: true },
     experimental: {
         mdxRs: false,

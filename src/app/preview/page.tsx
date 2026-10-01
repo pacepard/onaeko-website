@@ -19,17 +19,17 @@ import GoFeatures from '@/components/go/go-features';
 import GoHero from '@/components/go/go-hero';
 import GoPricing from '@/components/go/go-pricing';
 import GoUsecase from '@/components/go/go-usecase';
-import PPCollective from '@/components/pacepard/pp-collective';
-import PPCTA from '@/components/pacepard/pp-cta';
-import PPDivider from '@/components/pacepard/pp-divider';
-import FAQs from '@/components/pacepard/pp-faq';
-import PPFunnel from '@/components/pacepard/pp-funnel';
-import PPGo from '@/components/pacepard/pp-go';
-import PPHeroSection from '@/components/pacepard/pp-hero';
-import PPLovedBy from '@/components/pacepard/pp-lovedby';
-import { PPPersona } from '@/components/pacepard/pp-persona';
-import Comparator from '@/components/pacepard/pp-pricing';
-import { TestimonialsSection } from '@/components/pacepard/pp-testimonials';
+import PPCollective from '@/components/onaeko/pp-collective';
+import PPCTA from '@/components/onaeko/pp-cta';
+import PPDivider from '@/components/onaeko/pp-divider';
+import FAQs from '@/components/onaeko/pp-faq';
+import PPFunnel from '@/components/onaeko/pp-funnel';
+import PPGo from '@/components/onaeko/pp-go';
+import PPHeroSection from '@/components/onaeko/pp-hero';
+import PPLovedBy from '@/components/onaeko/pp-lovedby';
+import { PPPersona } from '@/components/onaeko/pp-persona';
+import Comparator from '@/components/onaeko/pp-pricing';
+import { TestimonialsSection } from '@/components/onaeko/pp-testimonials';
 import About from '@/components/shared/containers/about';
 import { AboutHero } from '@/components/shared/containers/about-hero';
 import ComingSoonPanel from '@/components/shared/coming-soon';
@@ -43,7 +43,7 @@ import { FAQ as SharedFAQ } from '@/components/shared/sections/faq';
 import { Features } from '@/components/shared/sections/features';
 import FeaturesFour from '@/components/shared/sections/features-4';
 import SiteHeroSection from '@/components/shared/sections/hero-section';
-import JoinPacepard from '@/components/shared/sections/join-pacepard';
+import JoinOnaeko from '@/components/shared/sections/join-onaeko';
 import LensShowcase from '@/components/shared/sections/lens-showcase';
 import { PersonasShowcase } from '@/components/shared/sections/persona-showcase';
 import Pricing from '@/components/shared/sections/pricing';
@@ -93,7 +93,7 @@ export default function PreviewPage() {
                 </p>
             </div>
 
-            <PreviewBand id="pacepard-home" label="Pacepard / home" />
+            <PreviewBand id="onaeko-home" label="Onaeko / home" />
             <PPHeroSection />
             <PPPersona />
             <PPCollective />
@@ -103,8 +103,8 @@ export default function PreviewPage() {
             <PPCTA />
 
             <PreviewBand
-                id="pacepard-extras"
-                label="Pacepard / funnel, FAQ, loved-by, pricing comparator"
+                id="onaeko-extras"
+                label="Onaeko / funnel, FAQ, loved-by, pricing comparator"
             />
             <PPFunnel />
             <FAQs />
@@ -112,8 +112,8 @@ export default function PreviewPage() {
             <Comparator />
 
             <PreviewBand
-                id="pacepard-testimonials-marquee"
-                label="Pacepard / testimonials (marquee)"
+                id="onaeko-testimonials-marquee"
+                label="Onaeko / testimonials (marquee)"
             />
             <TestimonialsSection />
 
@@ -174,7 +174,7 @@ export default function PreviewPage() {
                 </div>
                 <Starter />
                 <Demo />
-                <JoinPacepard />
+                <JoinOnaeko />
             </Background>
 
             <PreviewBand id="coming-soon" label="Coming soon panel" />

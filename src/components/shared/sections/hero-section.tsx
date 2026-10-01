@@ -34,7 +34,7 @@ const features: Feature[] = [
     {
         title: 'AI-Assisted learning and mastery',
         description:
-            'Solve user and product problems with Pacepard AI by your side.',
+            'Solve user and product problems with Onaeko AI by your side.',
         icon: SquaresFour,
     },
     {
@@ -46,7 +46,7 @@ const features: Feature[] = [
     {
         title: 'Scale your learning outcomes',
         description:
-            'Use Pacepard to deliver consistent results that are useful in today’s workplace',
+            'Use Onaeko to deliver consistent results that are useful in today’s workplace',
         icon: ChartBar,
     },
 ];
@@ -64,7 +64,7 @@ const HeroSection = () => {
                     </h1>
 
                     <p className="text-muted-foreground text-1xl mt-5 md:text-2xl">
-                        Pacepard is where talents learn and grow by doing, and
+                        Onaeko is where talents learn and grow by doing, and
                         organisations drive long-term product adoption,
                         engagement and loyalty.
                     </p>
@@ -72,7 +72,7 @@ const HeroSection = () => {
                     <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">
                         <Button asChild>
                             <a
-                                href="https://github.com/pacepard"
+                                href="https://github.com/onaeko"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -90,7 +90,7 @@ const HeroSection = () => {
               asChild
             >
               <a
-                href="https://calendly.com/pacepard"
+                href="https://calendly.com/onaeko"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="max-w-56 truncate text-start md:max-w-none"

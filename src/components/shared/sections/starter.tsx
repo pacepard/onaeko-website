@@ -42,7 +42,7 @@ export default function Starter() {
                                 data-tally-src="https://tally.so/embed/LZ9Zdz?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&formEventsForwarding=1"
                                 loading="lazy"
                                 className="w-full h-full"
-                                title="Pacepard Tally Form"
+                                title="Onaeko Tally Form"
                                 allow="fullscreen"
                             />
                         </div>

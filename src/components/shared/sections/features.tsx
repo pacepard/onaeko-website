@@ -29,7 +29,7 @@ export const Features = () => {
                 <div className="relative flex items-center justify-center">
                     <DashedLine className="text-muted-foreground" />
                     <span className="bg-muted text-muted-foreground absolute px-3 font-mono text-sm font-medium tracking-wide max-md:hidden">
-                        PACEPARD HACK. PACEPARD HACK.
+                        ONAEKO HACK. ONAEKO HACK.
                     </span>
                 </div>
 
@@ -39,7 +39,7 @@ export const Features = () => {
                         Built for world-class hackathons
                     </h2>
                     <p className="text-muted-foreground leading-snug">
-                        Pacepard is built on the habits that make the best
+                        Onaeko is built on the habits that make the best
                         hackathons successful: knowledgeable participants, fast
                         engagement, and launching high-quality initiatives
                         without the usual headaches.

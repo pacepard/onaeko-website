@@ -5,7 +5,7 @@ export const HackHeroData = {
     date: 'Thur Oct 23rd - Sat Oct 25th 2025',
     pitch: 'Got bold ideas and a big faith? Team up with other Christian creatives, solution-enablers, and techies to dream, build, and launch solutions that make a difference in your world.',
     image: {
-        src: '/blocks/bg-pacepard.png',
+        src: '/blocks/bg-onaeko.png',
         alt: 'innovation image',
         width: 2700,
         height: 1440,
@@ -13,7 +13,7 @@ export const HackHeroData = {
 
     button: {
         id: '01',
-        href: 'https://app.pacepard.com',
+        href: 'https://app.onaeko.com',
         text: 'Register Now',
         variant: 'default' as const,
     },

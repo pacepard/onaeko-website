@@ -4,9 +4,9 @@ import ClHero from '@/components/collective/cl-hero';
 import ClTestimonials from '@/components/collective/cl-testimonials';
 import ClFAQ from '@/components/collective/cl-faq';
 import ClTracks from '@/components/collective/cl-tracks';
-import PPApprenticeship from '@/components/pacepard/pp-apprenticship';
-import PPAgentUsecases from '@/components/pacepard/pp-agent-usecases';
-import PPLovedBy from '@/components/pacepard/pp-lovedby';
+import PPApprenticeship from '@/components/onaeko/pp-apprenticship';
+import PPAgentUsecases from '@/components/onaeko/pp-agent-usecases';
+import PPLovedBy from '@/components/onaeko/pp-lovedby';
 
 const Collective = () => {
     return (

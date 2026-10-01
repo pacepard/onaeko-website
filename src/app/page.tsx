@@ -1,12 +1,12 @@
 import { Background } from '@/components/background';
-import PPHeroSection from '@/components/pacepard/pp-hero';
-import PPCTA from '@/components/pacepard/pp-cta';
+import PPHeroSection from '@/components/onaeko/pp-hero';
+import PPCTA from '@/components/onaeko/pp-cta';
 
 
 import ClTestimonials from '@/components/collective/cl-testimonials';
-import PPFeatureShowcase from '@/components/pacepard/pp-feature-showcase';
-import Testimonials from '@/components/pacepard/testimonials';
-import PPApprenticeshipIntro from '@/components/pacepard/pp-apprenticship-intro';
+import PPFeatureShowcase from '@/components/onaeko/pp-feature-showcase';
+import Testimonials from '@/components/onaeko/testimonials';
+import PPApprenticeshipIntro from '@/components/onaeko/pp-apprenticship-intro';
 
 export default function Home() {
     return (

@@ -16,47 +16,47 @@ import { cn } from '@/lib/utils';
 
 const items = [
     {
-        quote: 'Pacepard cut out all the messy parts on how to attempt real user problems.',
+        quote: 'Onaeko cut out all the messy parts on how to attempt real user problems.',
         author: 'Ruhamah Ifere',
         role: 'Founder/E.D',
         company: 'Trully Verify Africa',
-        image: '/pacepard/ruhamah.png',
+        image: '/onaeko/ruhamah.png',
     },
     {
         quote: 'The best hands-on learning ​experience I’ve ever had, the results show up fast.',
         author: 'Adetomiwa Odunlade',
         role: 'Founder',
         company: 'Mercury Finance',
-        image: '/pacepard/zoe.png',
+        image: '/onaeko/zoe.png',
     },
     {
         quote: 'It’s the closest thing to working inside a top product team.',
         author: 'Peter Odejobi',
         role: 'Mobile Engineer',
         company: 'First Bank',
-        image: '/pacepard/peter.png',
+        image: '/onaeko/peter.png',
     },
     {
         quote: 'With respect to the format. This is the best I have ever participated in.',
         author: 'Aduragbemi Afe',
         role: 'PM',
         company: 'Learnpally',
-        image: '/pacepard/adura.png',
+        image: '/onaeko/adura.png',
     },
 
     {
         quote: 'Since I started, I saw myself have a real behavior change to coding.',
         author: 'Favour Brodrick',
         role: 'Technical PM',
-        company: 'Pacepard',
-        image: '/pacepard/favour.png',
+        company: 'Onaeko',
+        image: '/onaeko/favour.png',
     },
     {
         quote: 'I stopped overthinking and started building. Now I’m  confident and I’ve consistent habits.',
         author: 'Harry',
         role: 'Nodejs Engineer',
         company: 'Troott',
-        image: '/pacepard/harry.png',
+        image: '/onaeko/harry.png',
     },
     //I went from zero to building real features.
     // {
@@ -64,14 +64,14 @@ const items = [
     //   author: "Jonas Kotara",
     //   role: "Lead Engineer",
     //   company: "Mercury Finance",
-    //   image: "/pacepard/ruhamah.png",
+    //   image: "/onaeko/ruhamah.png",
     // },
     // {
     //   quote: "Founder Mode is hard enough without having a really nice PM app.",
     //   author: "Kevin Yam",
     //   role: "Founder",
     //   company: "Mercury Finance",
-    //   image: "/pacepard/ruhamah.png",
+    //   image: "/onaeko/ruhamah.png",
     // },
     // {
     //   quote: "I can use the tool as a substitute from my PM.",
@@ -98,7 +98,7 @@ export const Testimonials = ({
                             Be the best by doing.
                         </h2>
                         <p className="text-muted-foreground  text-lg max-w-lg leading-snug">
-                            Pacepard is built on the habits that make our
+                            Onaeko is built on the habits that make our
                             superhumans; learn and grow by doing, and generate
                             high-quality outputs without the usual headaches.
                         </p>

@@ -120,7 +120,7 @@ export function PersonasShowcase() {
                     viewport={{ once: true, amount: 0.5 }}
                     variants={titleVariants}
                 >
-                    Who&apos;s on Pacepard?
+                    Who&apos;s on Onaeko?
                 </motion.h1>
 
                 {/* --- RESPONSIVENESS APPLIED HERE --- */}

@@ -2,6 +2,8 @@
 
 ## Onaeko (website)
 
+Academy pack: see `.academy/` (prompt-plan, idea, specs). Public catalogue only; no login screens.
+
 ### Helping African talents unlock their superhuman potential.
 
 > Onaeko is a reward and engagement software for talents and product teams. We support the development of Open Source Software that solves problems faced daily by Africans, and we are creating points of entry into machine learning research.
@@ -62,8 +64,8 @@ Ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/thebuildershq/pacepard-website.git
-cd pacepard-website
+git clone https://github.com/thebuildershq/onaeko-website.git
+cd onaeko-website
 ```
 
 ### 2. Install Dependencies
@@ -90,7 +92,7 @@ Duplicate `.env.example` and rename it to `.env`, then update the values accordi
 npm start
 ```
 
-Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) in your browser.
+Runs the app in development mode. Open [http://localhost:3020](http://localhost:3020) in your browser (`package.json` `dev` uses `-p 3020`).
 
 ### 5. Run Tests
 

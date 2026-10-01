@@ -12,10 +12,10 @@ WORKDIR /app
 
 # Copy workspace configuration files (for caching)
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml turbo.json tsconfig.json ./
-# Web does not depend on @pacepard/blocs — skip TipTap Pro registry (see apps/web/docker.npmrc)
+# Web does not depend on @onaeko/blocs — skip TipTap Pro registry (see apps/web/docker.npmrc)
 COPY apps/web/docker.npmrc ./.npmrc
 
-# Only workspace packages required by @pacepard/web (avoids @tiptap-pro/* from blocs/main)
+# Only workspace packages required by @onaeko/web (avoids @tiptap-pro/* from blocs/main)
 COPY packages/ui ./packages/ui
 COPY configs ./configs
 COPY apps/web ./apps/web
@@ -33,12 +33,12 @@ ENV PNPM_STORE_DIR=/root/.local/share/pnpm/store \
     PNPM_NETWORK_CONCURRENCY=16 \
     NODE_OPTIONS="--max-old-space-size=4096"
 
-# Install only @pacepard/web and its workspace dependency tree (no blocs / tiptap-pro)
+# Install only @onaeko/web and its workspace dependency tree (no blocs / tiptap-pro)
 RUN --mount=type=cache,target=/root/.local/share/pnpm/store \
-    pnpm install --frozen-lockfile --prefer-offline --filter @pacepard/web...
+    pnpm install --frozen-lockfile --prefer-offline --filter @onaeko/web...
 
 RUN --mount=type=cache,target=/app/.turbo \
-    pnpm build --filter @pacepard/web
+    pnpm build --filter @onaeko/web
 
 
 # =========================
